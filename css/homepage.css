@@ -5,13 +5,10 @@
 	margin: 0 auto;
 }
 
-#header {
-}
 body p {
 	font-family: "Lane - Narrow";
 	
 }
-
 
 #content {
 	width: 350px;
@@ -26,8 +23,6 @@ body p {
 	
 	
 }
-
-
 
 #sidebar {
 	width: 620px;
@@ -87,11 +82,7 @@ h1 {
 	font-size: 1.125em;
 	
 }
-h2 {
-	font-size: 0.875em;
-	font-family: "Lane - Narrow";
-	
-}
+
 
 .photos {
 	max-width: 100%;
@@ -131,7 +122,6 @@ nav {
 	float: none;
 	padding-left: 5%;
 	padding-right: 5%;
-	
 	}
 	
 	
@@ -171,7 +161,6 @@ nav {
 	float: none;
 	padding-left: 5%;
 	padding-right: 5%;
-	
 	}
 	
 	
@@ -191,6 +180,7 @@ nav {
 	 
 	 nav {
 		 padding-left: 50%;
+		 padding-right: 0%;
 		 
 	 }
 	 
@@ -201,51 +191,38 @@ nav {
 		-webkit-text-size-adjust: none;
 	}
 	#pagewrap {
-		width: 80%;
+		width: 70%;
 	}
-	#content { 
+	#content {
 	width: 70%;
 	float: none;
 	padding-left: 0%;
 	padding-right: 0%;
-	margin-right: 0%;
-	margin-left: 0%;
-	
 	}
 	
 	
 	#sidebar {
-		width: 80%;
+		width: 70%;
 		float: none;
 		padding-right: 0%;
-		padding-left: 10%;
-		margin-left: 0%;
-		margin-right: 0%;
+		padding-left: 0%;
 		border-left: none;
+		margin: auto;
+		
 	}
 	
 	#logo img {
-		padding-left: 0%;
+		padding-left: 5%;
 		padding-right: 0%;
-	
 	}
 	 
 	 nav {
-		 padding-left:50%;
-		 margin-left: 0%;
-		 
-	 }
-	 #slideshow {
-		 margin-left: 0%;
 		 padding-left: 0%;
-		 padding-right: 0%;
-		 
 		 
 	 }
-	 .photos {
-		 padding-left: 0%;
-	 
-	 }
+	.photos {
+		padding-left: 0%;
+	}
 	
-
+	 
 }
