@@ -1,13 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Truffles and Trifles</title>
 <meta content="cooking, school, orlando, gift, baskets, gourmet, classes, orlando, florida, FL, winter park, college park, gift baskets, holiday, business, culinary, corporate, team, spouse, menus, dessert, dinner" name="keywords">
 <meta content="Truffles and Trifles offers gourmet cooking school classes and gift baskets for individuals, groups and corporate events in Orlando Forida." name="description">
-
-<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="media-queries.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
 <link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
+<link href="css/homepage.css" rel="stylesheet" type="text/css">
 <script src="scripts/jquery-1.6.min.js" type="text/javascript"></script>
 <script src="scripts/jquery.cycle.all.js" type="text/javascript"></script>
 <script type="text/xml">
@@ -20,27 +24,31 @@
 </head>
 
 <body>
+<div id="pagewrap">
 
-<div class="container">
-  <div class="header"><!--tried to put in but adds space above my top image <p>Truffles and Trifles</p>--><img src="images/newtop.png" width="960" height="94" alt="Top image">
-    <!-- end .header --></div>
-
-<div class="logo"> <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-    </div><!--end div class logo--> 
-
-<nav><!--begin nav-->
-    <ul>
-     <li><a href="index.html">Home</a></li>
+	<header id="header">
+       <div id="logo"> <a href="index.html"><img src="images/logobig.jpg" alt="logo"></a>
+      </div> 
+	</header>
+	
+	<div id="content">
+    <nav>
+			<ul class="nav"><!--begin NAV-->
+    <li><a href="index.html">Home</a></li>
      <li><a href="generic.html">generic</a></li>
-     <li><a href="formpageone.html">Form</a></li>
-     <li>Private Parties</li>
-     <li>Fresh Baked</li>
-     <li>Gift Baskets</li>
-    </ul>
-    </nav><!--end nav-->
+      <li><a href="formpageone.html">Form</a></li>
+      <li><a href="#">Private Parties</a></li>
+      <li><a href="#">Fresh Baked</a></li>
+      <li><a href="#">Gift Baskets</a></li>
+      
+  </ul><!--end NAV-->
+  
+  </nav>
 
-<div class="content">
-    
+	</div><!--end content-->
+
+	<!-- end .content --></div>
+	<aside id="sidebar">
     <div class="photos">
    <script type="text/javascript">
 // BeginOAWidget_Instance_2559022: #slideshow
@@ -71,16 +79,19 @@ function slideshowOnCycleAfter() {
       </script>
       <div id="slideshow">
         <!--All elements inside this will become slides-->
-        <img src="images/Belgian-Chocolate-Truffle-l.jpg" width="432" height="324" title="Belgian Chocolate Truffle" /> <img src="images/Choco-mousse-bombe-lg.jpg" width="432" height="324" title="Choco Mousse Bombe" /> <img src="images/LemonCreamCakes1.jpg" width="432" height="324" title="Lemon Cream Cakes" />
+        <img src="images/Belgian-Chocolate-Truffle-l.jpg" width="432" height="324" title="Belgian Chocolate Truffle" /><img src="images/LemonCreamCakes1.jpg" width="432" height="324" title="Lemon Cream Cakes" />
         <img src="images/Pittsburgh-2-100.jpg" width="432" height="324" title="Pittsburgh" /> <img src="images/Raspberry.jpg" width="600" height="450" title="Raspberry" /> </div>
       <!--It is safe to delete this if captions are disabled-->
-      <div id="slideshow-caption"></div><!--end div class photos--> 
-      <div class="survey"><!--begin survey-->
-       <p><a href="Survey.html">Click here to take online survey</a></p>
-       </div><!--end survey-->
-  <!-- end .content --></div>
-
-<!-- end .container --></div>
+      <!--end div class photos--> 
+      
+  
 </div>
+    </aside><!--end sidebar-->
+    
+    						
+ 
+
+</div>	
+
 </body>
 </html>

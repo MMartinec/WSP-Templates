@@ -1,47 +1,58 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>Truffles and Trifles</title>
-<meta content="cooking, school, orlando, gift, baskets, gourmet, classes, orlando, florida, FL, winter park, college park, gift baskets, holiday, business, culinary, corporate, team, spouse, menus, dessert, dinner" name="keywords">
-<meta content="Truffles and Trifles offers gourmet cooking school classes and gift baskets for individuals, groups and corporate events in Orlando Forida." name="description">
-<link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
-<link href="css/newformstep1.css" rel="stylesheet" type="text/css">
+<title>generic</title>
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="media-queries.css" rel="stylesheet" type="text/css">
+<link href="css/formpageone.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+<div id="pagewrap">
 
-<div class="container">
-  <div class="header"><!--tried to put in but adds space above my top image <p>Truffles and Trifles</p>--><img src="images/newtop.png" width="960" height="94" alt="Top image">
-    <!-- end .header --></div>
+	<header id="header">
+        
+	</header>
+	
+	<div id="content">
 
-<div class="logo"> <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-  </div><!--end div class logo--> 
-
-<nav><!--begin nav-->
-    <ul>
-     <li><a href="index.html">Home</a></li>
+<div id="logo"><img src="images/logobig.jpg" alt="logo">
+</div>
+<nav>
+			<ul class="nav"><!--begin NAV-->
+    <li><a href="index.html">Home</a></li>
      <li><a href="generic.html">generic</a></li>
-     <li><a href="formpageone.html">Form</a></li>
-     <li>Private Parties</li>
-     <li>Fresh Baked</li>
-     <li>Gift Baskets</li>
-    </ul>
-  </nav><!--end nav-->
-
-<div class="content">
-<img src="images/step1background.png" alt="Step 1, About You" width="596" height="49" id="step1">
+      <li><a href="formpageone.html">Form</a></li>
+      <li><a href="#">Private Parties</a></li>
+      <li><a href="#">Fresh Baked</a></li>
+      <li><a href="#">Gift Baskets</a></li>
+      
+  </ul><!--end NAV-->
+  
+  </nav>
+<div class="info">
+	<p>Please tell us which class or classes you'd like to take. Sign up friends and family as well, or give a class as a <a href="#">gift</a>!
+        A credit card and daytime phone number are required to hold your space (information will be transmitted over our secure server).
+      Classes are subject to availability. </p>
+</div>
+		
+  </div>
+	
+	<aside id="sidebar">
+    <img src="images/step1aboutyou.png" alt="Step 1, About You" width="596" height="49" id="step1">
 <!--<legend>Step 1, About You</legend>-->
-<div class="about">
+<div class="formcontainer">
   
     <form>
+    
   <p>* Required</p>
-  <label >First Name: *</label><br />
+  <label>First Name: *</label><br />
 <input name="First Name" type="text" placeholder="First Name" size="26" maxlength="40" /><br />
-
-      <label>Last Name: *</label><br />
-<input name="lname" type="text" placeholder="Last Name" size="26" maxlength="40" /><br />
-
+<label>Last Name: *</label><br />
+<input name="Last Name" type="text" placeholder="Last Name" size="26" maxlength="40" /><br />
 <label>Email Address:</label><br />
 <input name="Email Address" type="text" placeholder="example@example.com" size="26" maxlength="40" /><br />
 
@@ -113,20 +124,19 @@
 <label >Zip Code: *</label><br />
 <input name="Zip Code" type="text" placeholder="xxxxx-xxxx" size="10" maxlength="10" /><br /> <br /><br />
 
-  
-</form><!--end form-->
+
+
+</form>
+
 </div>
+<ul id="scroll">
+  	<li><a href="index.html"><strong>Exit form</strong></a></li>
+    <li><a href="formpagetwo.html"><strong>Go to step two</strong></a></li>
+  </ul>
+    						
+  </aside>
 
-    <img src="images/scrollstepone.png" alt="go back or continue" width="558" height="19" usemap="#Map">
-    <map name="Map">
-      <area shape="rect" coords="400,-1,569,23" href="formpagetwo.html" alt="Submit Form">
-      <area shape="rect" coords="-8,2,221,18" href="index.html" alt="back to cooking classes">
-      <area shape="rect" coords="220,14,224,21" href="#">
-      <area shape="rect" coords="394,5,564,17" href="#">
-    </map>
-    
-<!-- end .content --></div>
-
-<!-- end .container --></div>
+	
+</div>
 </body>
 </html>
