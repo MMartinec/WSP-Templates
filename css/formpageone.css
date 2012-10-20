@@ -259,6 +259,9 @@ form {
 	  #scroll {
 		 padding-left: 3%;
 	 }
+	 .info {
+		 padding-left: 15%;
+	 }
 }
 @media screen and (max-width: 480px) {
 
@@ -308,6 +311,8 @@ form {
 		 padding-left: 3%;
 	 }
 	
-	
+	.info {
+		 padding-left: 15%;
+	 }
 
 }
